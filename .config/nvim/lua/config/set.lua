@@ -1,5 +1,3 @@
-
-vim.cmd("language en_US")
 vim.cmd("set noshowcmd")
 
 vim.g.mapleader = " "
