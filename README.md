@@ -1,7 +1,7 @@
 # Prerequisites
 Things that have to be installed first:
 - fish
-- tmux
+- tmux 3.x
 - ripgrep
 - nvim
 - packer
