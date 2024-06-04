@@ -11,6 +11,7 @@ return require('packer').startup(function(use)
     'nvim-treesitter/nvim-treesitter',
     run = ':TSUpdate'
   }
+  use 'vim-test/vim-test'
   use 'tpope/vim-fugitive'
   use {
   'VonHeikemen/lsp-zero.nvim',
