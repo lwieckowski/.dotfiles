@@ -1,6 +1,6 @@
 # Prerequisites
 Things that have to be installed first:
-- fish
+- fish (optional)
 - tmux 3.x
 - ripgrep
 - nvim
