@@ -6,12 +6,11 @@ return require('packer').startup(function(use)
     'nvim-telescope/telescope.nvim', tag = '0.1.6',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
-  use { "catppuccin/nvim", as = "catppuccin" }
+  use { "rose-pine/neovim", as = "rose-pine" }
   use {
     'nvim-treesitter/nvim-treesitter',
     run = ':TSUpdate'
   }
-  use 'vim-test/vim-test'
   use 'tpope/vim-fugitive'
   use {
   'VonHeikemen/lsp-zero.nvim',
